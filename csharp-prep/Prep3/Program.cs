@@ -9,7 +9,8 @@ class Program
         
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 100);
-        do{
+        do
+        {
             Console.Write("What is your guess? ");
             string guessNumber = Console.ReadLine();
 
